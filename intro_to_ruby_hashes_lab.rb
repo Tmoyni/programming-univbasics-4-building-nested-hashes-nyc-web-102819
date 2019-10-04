@@ -4,11 +4,26 @@ def base_hash
 end
 
 def monopoly_with_second_tier
-  def base_hash
  monopoly = {
-	:railroads => { :pieces => {} }
+	:railroads => { 
+	  :pieces => {} 
+	}
  }
 end
+end
+
+def second_challenge
+ 
+  epic_tragedy = {
+   :montague => {
+      :patriarch => {},
+      :matriarch => {},
+      :hero => {},
+      :hero_friends => []
+   }, 
+   }
+  }
+
 end
 
 def monopoly_with_third_tier
