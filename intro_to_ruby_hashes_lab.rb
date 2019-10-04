@@ -10,21 +10,6 @@ def monopoly_with_second_tier
 	}
  }
 end
-end
-
-def second_challenge
- 
-  epic_tragedy = {
-   :montague => {
-      :patriarch => {},
-      :matriarch => {},
-      :hero => {},
-      :hero_friends => []
-   }, 
-   }
-  }
-
-end
 
 def monopoly_with_third_tier
   # When you start writing the implementation for this method, copy the Hash
