@@ -3,8 +3,12 @@ def base_hash
 	:railroads => {} }
 end
 
-def monopoly_with_second_tier = {
- base_hash 
+def monopoly_with_second_tier
+ if base_hash["top hat"]
+  shipping_manifest["top hat"] += 1
+else
+  shipping_manifest["top hat"] = 1
+end
  
 puts base_hash
 end
